@@ -1,0 +1,46 @@
+Module: SceLibHttp major_version: 1 minor_version: 1
+sceModuleInfo_type: 6
+module_function: module_start localname: __module_start
+module_function: module_stop localname: __module_stop
+Library: BECHttp attr: auto_export
+Library: BECHttp version: 1
+Library: BECHttp stubfile: "AVHttp_stub"
+Library: BECHttp nidsuffix: ""
+Library: BECHttp libnamenid: 0xE8F15CDF
+Library: BECHttp function: sceHttpInit nidvalue: 0x214926DA
+Library: BECHttp function: sceHttpTerm nidvalue: 0xC9076667
+Library: BECHttp function: sceHttpCreateTemplate nidvalue: 0x62241DAC
+Library: BECHttp function: sceHttpDeleteTemplate nidvalue: 0xEC85ECFC
+Library: BECHttp function: sceHttpCreateConnectionWithURL nidvalue: 0xC616C201
+Library: BECHttp function: sceHttpDeleteConnection nidvalue: 0xF0F65C16
+Library: BECHttp function: sceHttpCreateRequestWithURL nidvalue: 0xBD5DA1D1
+Library: BECHttp function: sceHttpDeleteRequest nidvalue: 0x3D3D29AE
+Library: BECHttp function: sceHttpSendRequest nidvalue: 0x9CA58B9A
+Library: BECHttp function: sceHttpAbortRequest nidvalue: 0xEA616630
+Library: BECHttp function: sceHttpReadData nidvalue: 0x7EDE397A
+Library: BECHttp function: sceHttpGetResponseContentLength nidvalue: 0xF580D305
+Library: BECHttp function: sceHttpGetStatusCode nidvalue: 0x27071692
+Library: BECHttp function: sceHttpGetAllResponseHeaders nidvalue: 0x11F6C280
+Library: BECHttp function: sceHttpSetResolveTimeOut nidvalue: 0x8455B5B4
+Library: BECHttp function: sceHttpSetResolveRetry nidvalue: 0x9AB56EA8
+Library: BECHttp function: sceHttpSetConnectTimeOut nidvalue: 0x237CA86F
+Library: BECHttp function: sceHttpSetSendTimeOut nidvalue: 0x8AE3F009
+Library: BECHttp function: sceHttpSetRecvTimeOut nidvalue: 0x94BF196F
+Library: BECHttp function: sceHttpSetAutoRedirect nidvalue: 0x34891C40
+Library: BECHttp function: sceHttpSetCookieEnabled nidvalue: 0xAEE573A4
+Library: BECHttp function: sceHttpAddRequestHeader nidvalue: 0x7B51B123
+Library: BECHttp function: sceHttpsGetSslError nidvalue: 0x2B79BDE1
+Library: BECHttp function: sceHttpsSetSslCallback nidvalue: 0xA0926038
+Library: BECHttp function: sceHttpGetLastErrno nidvalue: 0x9A68C3DF
+Library: BECHttp function: sceHttpParseResponseHeader nidvalue: 0x03A6C89F
+Library: BECHttp function: sceHttpSetRequestContentLength nidvalue: 0x37C30C91
+Library: BECHttp function: sceHttpAddCookie nidvalue: 0xBEDB988E
+Library: BECHttp function: sceHttpCookieFlush nidvalue: 0x0DACA8D5
+Library: BECHttp function: sceHttpGetAuthEnabled nidvalue: 0x6727874D
+Library: BECHttp function: sceHttpGetAutoRedirect nidvalue: 0x6EAD73EC
+Library: BECHttp function: sceHttpGetCookieEnabled nidvalue: 0x1B6EF66F
+Library: BECHttp function: sceHttpRemoveRequestHeader nidvalue: 0x5EB5F549
+Library: BECHttp function: sceHttpSetAuthEnabled nidvalue: 0x11EC42D1
+Library: BECHttp function: sceHttpSetCookieRecvCallback nidvalue: 0xD4F32A24
+Library: BECHttp function: sceHttpSetCookieSendCallback nidvalue: 0x11C03868
+Library: BECHttp function: sceHttpSetRedirectCallback nidvalue: 0x4E08167E

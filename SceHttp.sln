@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1525
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SceHttp", "SceHttp\SceHttp.vcxproj", "{DE1C54C1-CB01-404D-9164-659C1799947B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|PSVita = Debug|PSVita
+		Release|PSVita = Release|PSVita
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE1C54C1-CB01-404D-9164-659C1799947B}.Debug|PSVita.ActiveCfg = Debug|PSVita
+		{DE1C54C1-CB01-404D-9164-659C1799947B}.Debug|PSVita.Build.0 = Debug|PSVita
+		{DE1C54C1-CB01-404D-9164-659C1799947B}.Release|PSVita.ActiveCfg = Release|PSVita
+		{DE1C54C1-CB01-404D-9164-659C1799947B}.Release|PSVita.Build.0 = Release|PSVita
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7310D9A-89B3-4371-AF22-862D8B065B52}
+	EndGlobalSection
+EndGlobal
